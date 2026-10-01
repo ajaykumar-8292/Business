@@ -12,11 +12,11 @@ function Services() {
       <div className="flex flex-col md:flex-row ">
          {/* Left Container */}
   <div className="w-1/2 bg-gray-800 p-5 pb-10  w-full md:w-1/2 ">
-    <h1 className="text-6xl font-bold text-white pl-10 md:pl-40 pt-10 font-sans md:text-5xl text-left ">We engineer the <br /> <span className="text-[rgb(228,164,91)]"> Software</span> your <br /> business runs on.</h1>
-    <p className="text-white text-2xl text-left pl-10 md:pl-40 pt-20 font-sans pb-10 md:pt-10">Webnest  Solutions Pvt Ltd is a product engineering studio in New Jaganpura, Patna. We design, build and maintain web platforms, business software and mobile apps for companies that need software to hold up under real use.</p>
-    <div className="md:flex-row   ">
-    <button className=" text-1xl  font-bold bg-red-500 rounded-4xl ml-40 md:ml-40  gap-10 text-white  ">Book a Discovery Call</button>
-    <button className="w- ml-40 mt-10 md:ml-30 text-white border-border-medium font-bold text-1xl">See our work</button>
+    <h1 className="text-6xl font-bold text-white  md:pl-40 pt-10 font-sans md:text-5xl text-left  ">We engineer the <br className="hidden md:block" /> <span className="text-[rgb(228,164,91)]"> Software</span> your  business runs on.</h1>
+    <p className="text-white text-2xl text-left  md:pl-40 pt-20 font-sans pb-10 md:pt-10">Webnest  Solutions Pvt Ltd is a product engineering studio in New Jaganpura, Patna. We design, build and maintain web platforms, business software and mobile apps for companies that need software to hold up under real use.</p>
+    <div className="md:flex-row     ">
+    <button className=" text-1xl  font-bold bg-red-500 rounded-4xl ml-25 md:ml-40  gap-10 text-white  ">Book a Discovery Call</button>
+    <button className="w- ml-25 mt-10 md:ml-30 text-white border-border-medium font-bold text-1xl">See our work</button>
   </div>
   </div>
 

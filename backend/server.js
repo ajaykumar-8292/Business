@@ -7,29 +7,25 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Mobile Shop Backend is Running");
+  res.send("Welcome to WebNest IT Solutions - Backend API is Live!");
 });
 
-app.get("/products", (req, res) => {
-  res.json([
-    {
-      id: 1,
-      name: "iPhone 15",
-      price: 59999
-    },
-    {
-      id: 2,
-      name: "Samsung Galaxy S24",
-      price: 69999
-    },
-    {
-      id: 3,
-      name: "OnePlus 12",
-      price: 54999
-    }
-  ]);
+app.post("/api/contact", (req, res) => {
+  const { name, email, phone, message } = req.body;
+  
+
+  console.log("Name:", name);
+  console.log("Email:", email);
+  console.log("Phone:", phone);
+  console.log("Message:", message);
+
+  res.json({
+    message: "Message sent successfully!",
+  });
 });
 
-app.listen(5000, () => {
-  console.log("Backend running on http://localhost:5000");
+const PORT = 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });

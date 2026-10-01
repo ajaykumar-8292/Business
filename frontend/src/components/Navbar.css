@@ -9,6 +9,7 @@
   box-sizing: border-box;
   position: sticky;
   top: 0;
+ 
 }
 
 /* Logo */
@@ -50,15 +51,27 @@
 .get-start:hover{
   background-color: rgb(174, 241, 67);
 }
+
+
+.navbar-get-start{
+      width: 50px;
+      background-color: blue;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 5px;
+     
+    }
 /* Mobile */
 @media (max-width: 768px) {
   .navbar {
-    padding: 15px 20px;
+    padding: 9px 2px;
     width: 100%;
+    
   }
 
   .logo a {
-    font-size: 20px;
+    font-size: 80px;
+    
   }
 
   .nav-links {
@@ -73,6 +86,7 @@
 /*hamburger*/
 .hamburger {
     display: none;
+    
    
 }
 
@@ -85,19 +99,33 @@
         color: white;
         font-size: 30px;
         cursor: pointer;
+        margin-left: 200px;
+        
+      
+        
     }
 
     .nav-links {
         display: none;
         position: absolute;
         top: 100%;
-        left: 0;
+        left: 0px;
         width: 100%;
         background: #111;
         flex-direction: column;
+        padding-left: 20px;
     }
 
     .nav-links.active {
         display: flex;
+    }
+    
+
+    .navbar-get-start{
+      width: 50px;
+      background-color: blue;
+      height: 20px;
+      border-radius: 2px;
+     
     }
 }

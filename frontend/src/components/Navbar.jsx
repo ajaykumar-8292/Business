@@ -31,7 +31,7 @@ function Navbar() {
         <Link to="/contact">Contact</Link>
 
        <Link to="/login">
-            <button className="get-start">
+            <button className="navbar-get-start">
               Login
             </button>
           </Link>
