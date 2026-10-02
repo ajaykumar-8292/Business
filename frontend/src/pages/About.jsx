@@ -3,7 +3,7 @@ import "./About.css";
 import { IoIosReturnRight } from "react-icons/io";
 import ratting from "../assets/ratting.png";
 import ajay from "../assets/Ajay.png";
-import raj from "../assets/raj.jpeg";
+import raj from "../assets/Raj.jpeg";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { GiPerpendicularRings } from "react-icons/gi";
 import { FaAdjust } from "react-icons/fa";
@@ -89,27 +89,27 @@ Perfect Score
 </div>
 <div className="counter-container">
   <div className="counter-card">
-    <h2 class="stat-number">200+</h2>
-      <p class="stat-label">PROJECTS DELIVERED</p>
-      <p class="stat-description">Successfully engineered systems.</p>
+    <h2 className="stat-number">200+</h2>
+      <p className="stat-label">PROJECTS DELIVERED</p>
+      <p className="stat-description">Successfully engineered systems.</p>
   </div>
 
   <div className="counter-card">
-    <h2 class="stat-number">15+</h2>
-      <p class="stat-label">Clients Served</p>
-      <p class="stat-description">Across startups and enterprises.</p>
+    <h2 className="stat-number">15+</h2>
+      <p className="stat-label">Clients Served</p>
+      <p className="stat-description">Across startups and enterprises.</p>
   </div>
 
   <div className="counter-card">
-    <h2 class="stat-number">5+</h2>
-      <p class="stat-label">Years Experience</p>
-      <p class="stat-description">Mastering the digital landscape.</p>
+    <h2 className="stat-number">5+</h2>
+      <p className="stat-label">Years Experience</p>
+      <p className="stat-description">Mastering the digital landscape.</p>
   </div>
 
   <div className="counter-card">
-    <h2 class="stat-number">99%</h2>
-      <p class="stat-label">Client Satisfaction</p>
-      <p class="stat-description">Driven by transparent processes.</p>
+    <h2 className="stat-number">99%</h2>
+      <p className="stat-label">Client Satisfaction</p>
+      <p className="stat-description">Driven by transparent processes.</p>
   </div>
 </div>
 
